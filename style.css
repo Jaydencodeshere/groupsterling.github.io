@@ -1,0 +1,498 @@
+html{
+	scroll-behavior: smooth;
+}
+.nav{
+	background-color: #fafaf8;
+	z-index: 9;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.nav_top{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	
+}
+#iconbar{
+	color: black;
+	font-size: 2rem;
+	position: absolute;
+	margin-top: 35px;
+	margin-right: 20px;
+	opacity: 0;
+	visibility:visible;
+}
+#iconbar:hover{
+	color: gold;
+}
+.logo{
+	width: 50%;
+	float: left;
+}
+.logo img{
+	padding: 10px;
+	height: 90px;
+	margin-top: 10px;
+}
+.nav_side{
+	float: right;
+	width: 40%;
+	margin-top: 35px;
+	text-align: left;
+}
+.nav_side a{
+	text-decoration: none;
+    margin-left: 40px;
+	margin-top: 5px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Zilla Slab', serif;
+	font-size: 23px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+.nav_side a:hover{
+	color: gold;
+	transition: all is ease;
+}
+
+.main{
+	background-image:url("./background3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 125vh;
+	width: 100%;
+	animation:slider 25s infinite ease-in-out;
+	animation-delay: 3s;
+}
+@keyframes slider{
+	0%{background-image:url("./background3.jpg");}
+	25%{background-image:url("./slider3.jpg");}
+	50%{background-image:url("./slider1.jpg");}
+	75%{background-image:url("./slider7.jpg");}
+
+}
+.main .main_content {
+	padding-top: 50%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.testi{
+	padding: 50px;
+	height: 100vh;
+	background-color: white;
+	overflow-y: hidden;
+}
+.testi h2{
+	color: black;
+	line-height: 100px;
+	font-size: 35px;
+	font-family: 'Zilla Slab', serif;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.testi .testi_container{
+	background-color: #fafaf8;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+.testi .testi_container .carousel-inner{
+	background-color: white;
+	box-shadow: 0px 3px 65px 0px rgba(255, 215, 0, 0.4);
+}
+.testi .testi_container .item{
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+}
+.testi .testi_container .item .item_img{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.testi .testi_container .item .item_content{
+	text-align: center;
+}
+.testi .testi_container .item .item_content h3{
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+}
+.testi .testi_container .item .item_content p{
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+}
+
+footer{
+	background-color: #fafaf8;
+	padding: 50px;
+	overflow: hidden;
+
+}
+footer .pages{
+	text-align: center;
+}
+footer .pages h3{
+	color: black;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+	padding: 5px;
+}
+footer .pages a{
+	text-decoration: none;
+	margin: 10px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Zilla Slab', serif;
+}
+footer .pages a:hover{
+	color: gold;
+}
+footer .doc{
+	text-align: center;
+}
+footer .doc h3{
+	color: black;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+	padding: 5px;
+}
+footer .doc a{
+	text-decoration: none;
+	margin: 10px;
+	color: black;
+	font-size: 20px;
+	font-family:  'Zilla Slab', serif;
+}
+footer .doc a:hover{
+	color: gold;
+}
+footer .contact{
+	text-align: center;
+}
+footer .contact h3{
+	color: black;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+	padding: 5px;
+}
+footer .social{
+	text-align: center;
+}
+footer .social h3{
+	color: black;
+	font-size: 25px;
+	font-family: 'Zilla Slab', serif;
+	padding: 5px;
+}
+footer .social a{
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	margin: 30px;
+}
+footer .social a:hover{
+	color: gold;
+}
+footer .contact a{
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	margin: 30px;
+}
+footer .contact a:hover{
+	color: gold;
+}
+footer p{
+color: black;
+text-align: center;
+}
+
+/*about us page*/
+.about_us{
+	padding: 100px;
+}
+.about_us h2{
+	color: black;
+	font-size: 35px;
+	font-family: 'Zilla Slab', serif;
+	text-align: center;
+	padding: 10px;
+	line-height: 100px;
+	text-transform: uppercase;
+}
+.about_us p{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Zilla Slab', serif;
+}
+.team{
+	padding: 50px;
+	background-color: white;
+	overflow: hidden;
+}
+.team h2{
+	color: black;
+	font-size: 35px;
+	font-family: 'Zilla Slab', serif;
+	text-align: center;
+	padding: 10px;
+	line-height: 100px;
+	text-transform: uppercase;
+}
+.team .team_container{
+	display: flex;
+}
+.team .team_container .team_video{
+	width: 50%;
+	padding: 20px;	
+}
+.team .team_container .team_video video{
+	width: 100%;
+	margin-left: 50px;
+	border: 10px solid black;
+	outline: none;
+}
+.team .team_container .team_content{
+	width: 30%;
+	padding: 20px;
+	margin-left: 100px;	
+}
+.team .team_container .team_content p{
+	padding: 10px;
+	font-size: 17px;
+	font-family: 'Zilla Slab', serif;
+	color: black;
+}
+
+/*Client Gallery Page*/
+.event{
+	padding-bottom: 50px;
+	background-color: white;
+}
+.event h2{
+	color: gold;
+	font-size: 35px;
+	text-align: center;
+	padding: 10px;
+	line-height: 100px;
+	font-family: 'Zilla Slab', serif;
+}
+.event .event_container{
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.event .event_container .item{
+	width: 30%;
+	margin: 30px;
+	height: auto;
+	background-color: #FFF5EE;
+}
+.event .event_container .item:hover{
+	box-shadow: 0px 3px 65px 0px rgba(255, 215, 0, 0.5);
+}
+.event .event_container .item .item_image{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+.event .event_container .item .item_image img{
+	width: 100%;
+	height: 250px;
+}
+.event .event_container .item .item_content{
+	text-align: center;
+	background-color: #FFF5EE;
+}
+.event .event_container .item .item_content h3{
+	padding: 10px;
+	font-size: 25px;
+	color: black;
+	font-family: 'Zilla Slab', serif;
+}
+
+/*for portfolio html page*/
+.folio .folio_img{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.folio{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.folio .folio_img img{
+	width: 100%;
+	height: 45vh;
+}
+/*for desktop=1364 but lets do for tablet*/
+@media (max-width: 800px){
+	html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+    .logo{
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav_side{
+		width: 100%;
+		text-align: left;
+	}
+	.nav_side a{
+		opacity: 0;
+		visibility: hidden;
+	}
+	#iconbar{
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.nav_side.responsive{
+		width: 100%;
+		height: 40vh;
+		background-color: white;
+		position: relative;
+		margin: 0;
+		z-index: 1111;
+	}
+
+	.nav_side.responsive a{
+		opacity: 1;
+		visibility: visible;
+		float: none;
+		display: block;
+		text-align: center;
+		line-height: 50px;
+	}
+	.main .main_content h2{
+		font-size: 35px;
+	} 
+
+	.main .main_content .btn a{
+		margin: 250px;
+	}
+	.event .event_container .item .item_image{
+		width: 100%;
+		height: 150px;
+	}
+	.event .event_container .item .item_image img{
+		width: 100%;
+		height: 150px;
+	}
+	.event .event_container .item .item_content p{
+		font-size: 12px;
+	}
+	.event .event_container .item .item_content a{
+		margin: 50px;
+	}
+
+	.team .team_container .team_content{
+		margin: 60px;
+		margin-top: 3px;
+	}
+
+	.team .team_container .team_content p{
+		font-size: 6px;
+	}
+}
+
+
+/*for mobile*/
+@media (max-width: 320px){
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+    .logo{
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav_side{
+		width: 100%;
+		text-align: left;
+	}
+	.nav_side a{
+		opacity: 0;
+		visibility: hidden;
+	}
+	#iconbar{
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.nav_side.responsive{
+		width: 100%;
+		height: 40vh;
+		background-color: white;
+		position: relative;
+		margin: 0;
+		z-index: 1111;
+	}
+
+	.nav_side.responsive a{
+		opacity: 1;
+		visibility: visible;
+		float: none;
+		display: block;
+		text-align: center;
+		line-height: 50px;
+	}
+	.main .main_content h2{
+		font-size: 20px;
+	} 
+
+	.main .main_content .btn a{
+		margin: 250px;
+	}
+	.event .event_container .item .item_image{
+		width: 100%;
+		height: 150px;
+	}
+	.event .event_container .item .item_image img{
+		width: 100%;
+		height: 150px;
+	}
+	.event .event_container .item .item_content p{
+		font-size: 12px;
+	}
+	.event .event_container .item .item_content a{
+		margin: 50px;
+	}
+
+	.team .team_container .team_content{
+		margin: 60px;
+		margin-top: 3px;
+	}
+
+	.team .team_container .team_content p{
+		font-size: 6px;
+	}
+}
