@@ -1,17 +1,18 @@
+
 html{
 	scroll-behavior: smooth;
 }
+
 .nav{
 	background-color: #fafaf8;
 	z-index: 9;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .nav_top{
 	position: relative;
 	width: 100%;
 	height: 100px;
-	
 }
 #iconbar{
 	color: black;
@@ -139,7 +140,6 @@ html{
 footer{
 	background-color: #fafaf8;
 	padding: 50px;
-	overflow: hidden;
 
 }
 footer .pages{
@@ -223,7 +223,7 @@ text-align: center;
 
 /*about us page*/
 .about_us{
-	padding: 100px;
+	padding: 50px;
 }
 .about_us h2{
 	color: black;
@@ -244,7 +244,6 @@ text-align: center;
 .team{
 	padding: 50px;
 	background-color: white;
-	overflow: hidden;
 }
 .team h2{
 	color: black;
@@ -282,7 +281,7 @@ text-align: center;
 
 /*Client Gallery Page*/
 .event{
-	padding-bottom: 50px;
+	padding-bottom: 10%;
 	background-color: white;
 }
 .event h2{
@@ -294,22 +293,22 @@ text-align: center;
 	font-family: 'Zilla Slab', serif;
 }
 .event .event_container{
+	margin-left: 9%;
+	margin-right: 4%;
 	display: flex;
-	margin-left: 5%;
-	margin-right: 5%;
+	flex-wrap: wrap;
 }
 .event .event_container .item{
 	width: 30%;
-	margin: 30px;
-	height: auto;
+	margin: 10px;
 	background-color: #FFF5EE;
+
 }
 .event .event_container .item:hover{
 	box-shadow: 0px 3px 65px 0px rgba(255, 215, 0, 0.5);
 }
 .event .event_container .item .item_image{
 	width: 100%;
-	height: 250px;
 	overflow: hidden;
 }
 .event .event_container .item .item_image img{
@@ -328,22 +327,24 @@ text-align: center;
 }
 
 /*for portfolio html page*/
-.folio .folio_img{
-	float: left;
-	width: 33.33%;
-	padding: 5px;
-}
 
 .folio{
-	content: "";
-	display: table;
-	clear: both;
+	columns: 3;
+	column-gap: 16px;
+}
+
+.folio .folio_img{
+	display: inline-block;
+	margin-bottom: 16px;
+	position: relative;
 }
 
 .folio .folio_img img{
 	width: 100%;
-	height: 45vh;
+	border-radius: 5px;
 }
+
+
 /*for desktop=1364 but lets do for tablet*/
 @media (max-width: 800px){
 	html,body{
