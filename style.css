@@ -330,13 +330,15 @@ text-align: center;
 
 .folio{
 	columns: 3;
-	column-gap: 16px;
+	column-gap: 10px;
 }
 
 .folio .folio_img{
 	display: inline-block;
 	margin-bottom: 16px;
 	position: relative;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .folio .folio_img img{
