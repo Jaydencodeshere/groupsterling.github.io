@@ -279,6 +279,35 @@ text-align: center;
 	color: black;
 }
 
+.meet{
+	padding: 20px;
+	height: 10vh;
+	background-color: white;
+	overflow-y: hidden;
+	padding-top: 50px;
+	margin-bottom: 30px;
+}
+
+.meet .meet_container{
+	background-color: #fafaf8;
+	margin-right: 30%;
+	margin-left: 30%;
+	text-align: center;
+	border: 5px solid #F5F5DC;
+}
+
+.meet .meet_container h2{
+	font-family: 'Zilla Slab', serif;
+}
+.meet .meet_container a{
+	color: black;
+	text-decoration: none;
+}
+.meet .meet_container a:hover{
+	color: gold;
+	text-decoration: none;
+}
+
 /*Client Gallery Page*/
 .event{
 	padding-bottom: 10%;
