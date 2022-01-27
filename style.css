@@ -6,8 +6,8 @@ html{
 .nav{
 	background-color: #fafaf8;
 	z-index: 9;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 .nav_top{
 	position: relative;
@@ -281,7 +281,7 @@ text-align: center;
 
 .meet{
 	padding: 20px;
-	height: 10vh;
+	height: 30vh;
 	background-color: white;
 	overflow-y: hidden;
 	padding-top: 50px;
@@ -298,6 +298,7 @@ text-align: center;
 
 .meet .meet_container h2{
 	font-family: 'Zilla Slab', serif;
+	font-size: 25px;
 }
 .meet .meet_container a{
 	color: black;
