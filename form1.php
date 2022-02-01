@@ -15,7 +15,7 @@ if (empty($name) || empty($spouseName) || empty($email) || empty($number) || emp
 }
 else
 {
-	mail("groupsterling04@gmail.com", "BOOKING INFO", $message, "From: $name < $email >");
+	mail("groupsterling04@gmail.com", "BOOKING INFO", $more, "From: $name < $email >");
 	echo "<script type='text/javascript'>alert('your message sent succesfully');
 	window.history.log(-1);
 	</script>";
