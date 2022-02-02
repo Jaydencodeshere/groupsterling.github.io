@@ -169,7 +169,7 @@ body{
 	color: black;
 }
 
-@media(max-width: 2600px){
+@media(min-width: 2600px){
 	.testi_cover{
 	width: 800px;
 	height: 600px;
