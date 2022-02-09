@@ -921,7 +921,7 @@ footer .social a{
 
 
 /*for mobile*/
-@media(max-width: 375px){
+@media(max-width: 414px){
 html,body{
 	width: 100%;
 	height: 100%;
@@ -1056,7 +1056,7 @@ footer .footer_gallery{
 	margin: 0;
 }
 footer .footer_img img{
-	width: 35px;
+	width: 40px;
 }
 footer .pages h3{
 	font-size: 14px;
