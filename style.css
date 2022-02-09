@@ -979,7 +979,7 @@ html,body{
 		line-height: 50px;
 	}
 	.main{
-	height: 200px;
+	height: 300px;
 }
 	.main .main_content {
 	padding-top: 80%;
@@ -1015,7 +1015,7 @@ html,body{
 			height: 100%;
 		}
 		.item_img img{
-			height: 28vh;
+			height: 145px;
 			width: 100px;
 		}
 		.item_cont{
