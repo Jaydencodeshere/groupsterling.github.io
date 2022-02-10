@@ -981,17 +981,17 @@ html,body{
 		line-height: 40px;
 	}
 	.main{
-	height: 200px;
+	height: 230px;
 }
 	.main .main_content {
-	padding-top: 80%;
+	padding-top: 275px;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 	.testi{
 			background-color: white;
-			height: 80vh;
-			width: 30%;
+			height: 400px;
+			width: 95px;
 		}
 	.testi_cover{
 		width: 800px;
