@@ -990,13 +990,13 @@ html,body{
 			background-color: white;
 			height: 400px;
 			width: 95px;
-		        justify-content: center;
+		        margin-left: 50px;
 		}
 	.testi_cover{
 		width: 800px;
 		height: 400px;
 		position: relative;
-		justify-content: center;
+		
    }
    .testi h2{
 			margin-top: -40px;
