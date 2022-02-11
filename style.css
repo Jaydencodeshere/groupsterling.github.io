@@ -1095,12 +1095,14 @@ footer p{
 			margin-top: -20px;
 		}
 		.about_us p{
-			font-size: 7px;
+			font-size: 10px;
 			line-height: 8px;
-			height: 10px;
 		}
 		.team h2{
 			font-size: 20px;
+		}
+		.team .team_container{
+			display: block;
 		}
 		.team .team_container .team_content{
 			width: 100%;
@@ -1109,22 +1111,29 @@ footer p{
     	height: 20vh;	
 		}
 		.team .team_container .team_content p{
-			font-size: 5px;
-			line-height: 4px;
+			font-size: 10px;
 			padding-right: -100px;
 			margin-left: -40px;
 		}
+		.team .team_container .team_video{
+			width: 50%;
+			padding: 10px;
+			align-items: center;
+		}
 		.team .team_container .team_video video{
-			width: 100px;
-			margin-left: -20px;
+			width: 200px;
+			margin-left: 40px;
 			border: 3px solid black;
+			align-items: center;
+			align-content: center;
 		}
 		.meet{
-			height: 25vh;
+			height: 200px;
 		}
 		.meet .meet_container{
 			margin-right: 15%;
 			margin-left: 15%;
+			margin-top: 30px;
 			border: 2px solid #F5F5DC;
 		}
 		.meet .meet_container h2{
