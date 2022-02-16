@@ -990,13 +990,19 @@ html,body{
 			background-color: white;
 			height: 400px;
 			width: 95px;
-			margin-left: 40px;
+			margin: auto;
+			transform: translateX(-115px);
 		}
 	.testi_cover{
 		width: 800px;
 		height: 400px;
 		position: relative;
    }
+   .testi_container{
+			display: flex;
+			width: 2800px;
+			transition: 0.5s;
+		}
    .testi h2{
 			margin-top: -40px;
 			margin-left: 95px;
@@ -1056,8 +1062,7 @@ footer .footer_gallery{
 }
 footer .footer_img img{
 	width: 100%;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin: 2px;
 }
 footer .pages h3{
 	font-size: 14px;
@@ -1078,7 +1083,8 @@ footer .contact a{
 	font-size: 12px;
 }
 footer .doc a{
-	font-size: 12px;
+	font-size: 10px;
+	margin: 2px;
 }
 footer .social a{
 	font-size: 12px;
