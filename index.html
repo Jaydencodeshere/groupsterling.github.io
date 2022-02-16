@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>groupsterlingpage</title>
+  <title>groupsterlingpage</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
@@ -13,28 +13,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-	<nav class="nav nav_top">
-		<div class="logo">
-			<img src="./img/logo.png">
-		</div>
-		<div class ="nav_side" id="nav_small">
+  <nav class="nav nav_top">
+    <div class="logo">
+      <img src="./img/logo.png">
+    </div>
+    <div class ="nav_side" id="nav_small">
 
-			<a href="about.html">About Us</a>
+      <a href="about.html">About Us</a>
        <a href="portfolio.html">Client Gallery</a>
-			<a href="form1.html">Contact</a>
-			<a href="">Blogs</a>
-		</div>
+      <a href="form1.html">Contact</a>
+      <a href="">Blogs</a>
+    </div>
     <a href="#" id="iconbar" onclick="responsive_menu()"><i class="fa fa-bars" aria-hidden="true"></i></a>
   </nav>
 
     <div class="main">
-    	<div class="main_content">
+      <div class="main_content">
     </div>
 
   <div class="testi">
@@ -152,14 +152,14 @@
   var btn = document.getElementsByClassName("btn");
   var contain = document.getElementById("contain");
 
-  btn[0].ontouch = function() {
-    contain.style.transform =  "translateX(0px)"
-  }
-  btn[1].ontouch = function() {
+  btn[0].onclick = function() {
     contain.style.transform =  "translateX(-800px)"
   }
-  btn[2].ontouch = function() {
+  btn[1].onclick = function() {
     contain.style.transform =  "translateX(-1600px)"
+  }
+  btn[2].onclick = function() {
+    contain.style.transform =  "translateX(0px)"
   }
 </script>
 <!-- Latest compiled and minified JavaScript -->
