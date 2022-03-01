@@ -962,9 +962,9 @@ html,body{
 	.nav_side.responsive{
 		width: 100%;
 		background-color: #fafaf8;
-		position: relative;
-		margin: 0px;
-		margin-top: -50px;
+		position: absolute;
+		margin: -50px;
+		margin-top: 50px;
 		z-index: 2;
 	}
 
